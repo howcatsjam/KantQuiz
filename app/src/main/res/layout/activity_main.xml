@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#009688">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:orientation="vertical">
+
+        <android.support.v7.widget.CardView xmlns:card_view="http://schemas.android.com/apk/res-auto"
+            style="@style/QuestionCard"
+            card_view:cardCornerRadius="@dimen/card_corner_radius">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    style="@style/QuestionText"
+                    android:text="@string/Q1" />
+
+                <RadioGroup
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <CheckBox
+                        android:id="@+id/q1_a1"
+                        style="@style/AnswerCheckBox"
+                        android:text="@string/Q1A1" />
+
+                    <CheckBox
+                        android:id="@+id/q1_a2"
+                        style="@style/AnswerCheckBox"
+                        android:text="@string/Q1A2" />
+
+                    <CheckBox
+                        android:id="@+id/q1_a3"
+                        style="@style/AnswerCheckBox"
+                        android:text="@string/Q1A3" />
+
+                    <CheckBox
+                        android:id="@+id/q1_a4"
+                        style="@style/AnswerCheckBox"
+                        android:text="@string/Q1A4" />
+
+                </RadioGroup>
+
+            </LinearLayout>
+
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView xmlns:card_view="http://schemas.android.com/apk/res-auto"
+            style="@style/QuestionCard"
+            card_view:cardCornerRadius="@dimen/card_corner_radius">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    style="@style/QuestionText"
+                    android:text="@string/Q2" />
+
+                <RadioGroup
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <RadioButton
+                        android:id="@+id/q2_a1"
+                        style="@style/AnswerButton"
+                        android:text="@string/Q2A1" />
+
+                    <RadioButton
+                        android:id="@+id/q2_a2"
+                        style="@style/AnswerButton"
+                        android:text="@string/Q2A2" />
+
+                    <RadioButton
+                        android:id="@+id/q2_a3"
+                        style="@style/AnswerButton"
+                        android:text="@string/Q2A3" />
+
+                </RadioGroup>
+
+            </LinearLayout>
+
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView xmlns:card_view="http://schemas.android.com/apk/res-auto"
+            style="@style/QuestionCard"
+            card_view:cardCornerRadius="@dimen/card_corner_radius">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    style="@style/QuestionText"
+                    android:text="@string/Q3" />
+
+                <RadioGroup
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <RadioButton
+                        android:id="@+id/q3_a1"
+                        style="@style/AnswerButton"
+                        android:text="@string/Q3A1" />
+
+                    <RadioButton
+                        android:id="@+id/q3_a2"
+                        style="@style/AnswerButton"
+                        android:text="@string/Q3A2" />
+
+                </RadioGroup>
+            </LinearLayout>
+
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView xmlns:card_view="http://schemas.android.com/apk/res-auto"
+            style="@style/QuestionCard"
+            card_view:cardCornerRadius="@dimen/card_corner_radius">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    style="@style/QuestionText"
+                    android:text="@string/Q4" />
+
+                <EditText
+                    android:id="@+id/q4_answer"
+                    style="@style/TextAnswer"
+                    android:hint="@string/answer" />
+
+            </LinearLayout>
+
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView xmlns:card_view="http://schemas.android.com/apk/res-auto"
+            style="@style/QuestionCard"
+            card_view:cardCornerRadius="@dimen/card_corner_radius">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    style="@style/QuestionText"
+                    android:text="@string/Q5" />
+
+                <EditText
+                    android:id="@+id/q5_answer"
+                    style="@style/TextAnswer"
+                    android:hint="@string/answer"
+                    android:inputType="textCapSentences" />
+
+            </LinearLayout>
+
+        </android.support.v7.widget.CardView>
+
+        <Button
+            android:id="@+id/submit_answers"
+            style="@style/Button"
+            android:onClick="submitAnswers"
+            android:text="@string/submit" />
+
+    </LinearLayout>
+
+
+</ScrollView>

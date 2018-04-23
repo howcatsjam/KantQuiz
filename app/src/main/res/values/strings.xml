@@ -1,0 +1,29 @@
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_name">Kant Quiz</string>
+    <string name="answer">Answer</string>
+    <string name="Q1">Q1: Suppose that somebody goes to the store. Which of the following could be the maxim underlying their action?
+</string>
+    <string name="Q1A1">Go to the store.</string>
+    <string name="Q1A2">Buy some milk.</string>
+    <string name="Q1A3">Go to the store to buy some milk.</string>
+    <string name="Q1A4">Go to the store to buy some cheese.</string>
+    <string name="Q2">Q2: Which of the following is a hypothetical imperative?</string>
+    <string name="Q2A1">If you want to get some milk, go the store.</string>
+    <string name="Q2A2">Get some milk.</string>
+    <string name="Q2A3">If you are at the store, buy some milk.</string>
+    <string name="Q3">Q3: For Kant, the moral status of an action depends on the actual consequences of that action.</string>
+    <string name="Q3A1">True</string>
+    <string name="Q3A2">False</string>
+    <string name="Q4">Q4: Describe the Universal Law Formulation of the Categorical Imperative, to the best of your ability.</string>
+    <string name="Q5">Q5: Describe the Humanity Principle, to the best of your ability.</string>
+    <string name="submit">Submit</string>
+    <string name="questionOneSummary">Question 1: <xliff:g example="1" id="questionOneScore">%d</xliff:g> out of 2.</string>
+    <string name="questionTwoSummary">Question 2: <xliff:g example="1" id="questionTwoScore">%d</xliff:g> out of 1.</string>
+    <string name="questionThreeSummary">Question 3: <xliff:g example="1" id="questionThreeScore">%d</xliff:g> out of 1.</string>
+    <string name="questionFourSummary">Question 4: <xliff:g example="1" id="questionFourScore">%d</xliff:g> out of 1.</string>
+    <string name="questionFiveSummary">Question 5: <xliff:g example="1" id="questionFiveScore">%d</xliff:g> out of 1.</string>
+    <string name="finalSummary">Final Score: <xliff:g example="3" id="overallScore">%d</xliff:g> out of <xliff:g example="5" id="totalPoints">%d</xliff:g>.</string>
+    <string name="resultsHeader">Results: </string>
+    <string name="share">Share</string>
+    <string name="shareResults">Share results with</string>
+</resources>
